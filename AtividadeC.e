@@ -7,7 +7,7 @@ int main()
     printf("Informe a temperatura em Fahrenheit: ");
     scanf("%f", &Fah);
 
-    tempCelsius = ((Fah - 32) * 5)/9;
+    Celsius = ((Fah - 32) * 5)/9;
 
     printf("A temperatura em Celsius é: %f", Celsius);
 
