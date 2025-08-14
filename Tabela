@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+//tabela com numero, quadrado e cubo de 0 a 10
+
+int main() {
+
+int i;
+
+printf("numero\tQuadrado\tCubo\n");
+
+for (i = 0; i <= 10; i++) {
+
+printf("%d\t%d\t%d\n", i, i*i, i*i*i);
+
+}
+
+return 0;
