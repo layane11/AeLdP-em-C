@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &num);
+
+    if ((num % 2 == 0 && num % 3 != 0) || (num % 3 == 0 && num % 2 != 0)) {
+        printf("O numero atende a condicao!\n");
+    } else {
+        printf("O numero NAO atende a condicao!\n");
+    }
+    return 0;
+}
