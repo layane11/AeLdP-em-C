@@ -12,7 +12,7 @@ int main()
     adicao = n1 + n2;
     sub = n1 - n2;
     mult = n1 * n2;
-    div = n1/n2;
+    divi = n1/n2;
     rest = n1 % n2;
 
     printf ("Resultado das operações entre os numeros digitados: \n");
