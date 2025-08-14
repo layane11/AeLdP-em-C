@@ -2,19 +2,21 @@
 
 int main() {
     short idade;
-    int depositado;
-    long conta;
+    int deposito;
+    char conta[30];
 
     printf("Digite sua idade: ");
     scanf("%hd", &idade);
+
     printf("Digite o valor a depositar: ");
-    scanf("%d", &depositado);
+    scanf("%d", &deposito);
+
     printf("Digite o numero da conta: ");
-    scanf("%ld", &conta);
+    scanf("%s", conta);
 
     printf("\nIdade: %hd anos\n", idade);
-    printf("Valor depositado: %d\n", depositado);
-    printf("Numero da conta: %ld\n", conta);
+    printf("Valor depositado: %d\n", deposito);
+    printf("Conta: %s\n", conta);
 
     return 0;
 }
