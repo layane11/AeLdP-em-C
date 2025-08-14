@@ -28,7 +28,7 @@ int main() {
             printf("Resultado: %.2f\n", numero1 * numero2);
             break;
         case 4:
-            if (num2 != 0)
+            if (numero2 != 0)
                 printf("Resultado: %.2f\n", numero1 / numero2);
             else
                 printf("Erro: divisao por zero!\n");
